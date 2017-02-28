@@ -9,7 +9,6 @@ const server = new Lien()
     ;
 
 server.addPage("/:owner/:name", lien => {
-    debugger
     ghClient.get(`repos/${lien.params.owner}/${lien.params.name}/issues/comments`, {
         all: true
     }, (err, allComments) => {
