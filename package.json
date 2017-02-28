@@ -15,7 +15,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/github-comments#readme",
@@ -36,5 +36,9 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-comments/issues"
+  },
+  "dependencies": {
+    "gh.js": "^3.0.8",
+    "lien": "^2.2.6"
   }
 }
