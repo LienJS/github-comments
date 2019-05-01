@@ -1,6 +1,6 @@
 {
   "name": "github-comments",
-  "description": "Fetch all the GitHub comments from a repo.",
+  "description": "Fetch all the GitHub comments from a repo using LienJS.",
   "keywords": [
     "github",
     "comments",
@@ -18,7 +18,7 @@
     "start": "node server"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
-  "homepage": "https://github.com/IonicaBizau/github-comments#readme",
+  "homepage": "https://github.com/LienJS/github-comments#readme",
   "files": [
     "bin/",
     "app/",
@@ -32,13 +32,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/github-comments.git"
+    "url": "git+ssh://git@github.com/LienJS/github-comments.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/github-comments/issues"
+    "url": "https://github.com/LienJS/github-comments/issues"
   },
   "dependencies": {
     "gh.js": "^3.0.8",
-    "lien": "^2.2.6"
+    "lien": "^3.3.0"
   }
 }
