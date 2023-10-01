@@ -1,5 +1,5 @@
 {
-  "name": "github-comments",
+  "name": "lien-github-comments-example",
   "description": "Fetch all the GitHub comments from a repo using LienJS.",
   "keywords": [
     "github",
